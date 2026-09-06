@@ -1,5 +1,9 @@
 # Proyektor Next
 
+<p align="center">
+  <img src="assets/proyektor-icon.png" alt="Icono de Proyektor Next" width="160">
+</p>
+
 **La Biblia en tu pantalla.**
 
 Proyektor Next es una aplicación de escritorio para preparar y controlar presentaciones bíblicas y
