@@ -1,52 +1,212 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Política de privacidad de Proyektor Next: datos locales, vinculación de Google o Microsoft, respaldos en Drive y OneDrive y control de datos.">
-    <meta name="theme-color" content="#152333"><title>Política de privacidad — Proyektor Next</title>
-    <link rel="icon" href="assets/proyektor-icon.png"><link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Política de privacidad de Proyektor Next: datos locales, cuentas Google y Microsoft, respaldos, analítica y control de datos."
+    />
+    <meta name="theme-color" content="#152333" />
+    <title>Política de privacidad — Proyektor Next</title>
+    <link rel="icon" href="assets/proyektor-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
-    <header class="site-header"><nav class="container nav" aria-label="Navegación principal"><a class="brand" href="./"><img src="assets/proyektor-icon.png" width="38" height="38" alt="">Proyektor Next</a><div class="nav-links"><a href="./">Inicio</a><a href="terminos.html">Términos</a><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></div></nav></header>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Navegación principal">
+        <a class="brand" href="./"
+          ><img src="assets/proyektor-icon.png" width="38" height="38" alt="" />Proyektor Next</a
+        >
+        <div class="nav-links">
+          <a href="./">Inicio</a><a href="terminos.html">Términos</a
+          ><a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+        </div>
+      </nav>
+    </header>
     <main id="contenido" class="container article">
-      <p class="eyebrow">Transparencia de datos</p><h1>Política de privacidad</h1>
+      <p class="eyebrow">Transparencia de datos</p>
+      <h1>Política de privacidad</h1>
       <p class="updated">Última actualización: 12 de septiembre de 2026</p>
-      <p class="intro">Proyektor Next es una aplicación gratuita de escritorio mantenida por DarNtn. Puedes usarla como Invitado sin vincular ninguna cuenta. Esta política explica qué datos permanecen en tu equipo, cuáles se envían al vincular una cuenta y cómo controlarlos.</p>
-      <p class="small">La versión 0.1.7 se publicó antes de retirar la analítica del código y puede conservarla si se compiló con ese servicio habilitado. Hasta que se publique un nuevo instalador, consulta el <a href="https://github.com/DarNtn/proyektor-next-releases/blob/9856b48/privacidad.html">aviso aplicable a esa versión</a>; puedes desactivarla desde Configuración.</p>
+      <p class="intro">
+        Proyektor Next es una aplicación gratuita de escritorio mantenida por DarNtn. Puedes usarla
+        como Invitado sin vincular ninguna cuenta. Esta política explica qué datos permanecen en tu
+        equipo, cuáles se envían al vincular una cuenta y cómo controlarlos.
+      </p>
 
       <h2>1. Responsable y contacto</h2>
-      <p>El proyecto Proyektor Next, mantenido por <a href="https://github.com/DarNtn">DarNtn</a>, es responsable de las funciones de la aplicación descritas aquí. Para consultas de privacidad, soporte o solicitudes relacionadas con tus datos, escribe a <a href="mailto:proyektornext@gmail.com">proyektornext@gmail.com</a>. Para problemas generales también puedes usar las <a href="https://github.com/DarNtn/proyektor-next-releases/issues">incidencias públicas del proyecto</a>; no publiques allí datos personales, archivos privados ni tokens.</p>
+      <p>
+        El proyecto Proyektor Next, mantenido por <a href="https://github.com/DarNtn">DarNtn</a>, es
+        responsable de las funciones de la aplicación descritas aquí. Para consultas de privacidad,
+        soporte o solicitudes relacionadas con tus datos, escribe a
+        <a href="mailto:proyektornext@gmail.com">proyektornext@gmail.com</a>. Para problemas
+        generales también puedes usar las
+        <a href="https://github.com/DarNtn/proyektor-next-releases/issues"
+          >incidencias públicas del proyecto</a
+        >; no publiques allí datos personales ni archivos privados.
+      </p>
 
       <h2>2. Uso como Invitado y almacenamiento local</h2>
-      <p>La aplicación no exige iniciar sesión. Biblias descargadas, fondos importados, cancioneros, notas, anuncios, favoritos, listas de reproducción y preferencias se guardan en este equipo. Como Invitado, Proyektor no sube esos datos a Google Drive ni a OneDrive. Algunas funciones que tú solicites, como descargar recursos, reproducir contenido de YouTube, abrir páginas externas o comprobar actualizaciones, sí necesitan Internet y contactan a los servicios correspondientes.</p>
+      <p>
+        La aplicación no exige iniciar sesión. Biblias descargadas, fondos importados, cancioneros,
+        notas, anuncios, favoritos, listas de reproducción y preferencias se guardan en este equipo.
+        Como Invitado, Proyektor no sube esos datos a Google Drive ni a OneDrive. Algunas funciones,
+        como descargar recursos, reproducir contenido de YouTube, abrir páginas externas o comprobar
+        actualizaciones, sí necesitan Internet y contactan a los servicios correspondientes.
+      </p>
 
       <h2>3. Qué ocurre al vincular Google o Microsoft</h2>
-      <p>Si decides vincular una cuenta, el inicio de sesión se realiza en el navegador del sistema mediante el proveedor que elijas. Proyektor recibe un identificador de cuenta, nombre, correo electrónico y, si está disponible, foto de perfil para mostrar tu cuenta y asociar tus respaldos. También obtiene tokens de autorización para acceder al espacio de respaldo. El token de renovación se guarda en el almacén de credenciales del sistema operativo; el token de acceso se mantiene durante la sesión. No solicitamos tu contraseña.</p>
-      <table><thead><tr><th>Proveedor</th><th>Permisos solicitados</th><th>Uso</th></tr></thead><tbody>
-        <tr><td>Google</td><td><code>openid</code>, <code>email</code>, <code>profile</code>, <code>drive.appdata</code></td><td>Identificar la cuenta, mostrar nombre/foto y guardar o recuperar respaldos en la carpeta privada de datos de Proyektor dentro de Google Drive. El permiso no da acceso a tus documentos generales de Drive.</td></tr>
-        <tr><td>Microsoft</td><td><code>openid</code>, <code>profile</code>, <code>email</code>, <code>offline_access</code>, <code>User.Read</code>, <code>Files.ReadWrite.AppFolder</code></td><td>Identificar la cuenta y guardar o recuperar respaldos en la carpeta de aplicación de Proyektor en OneDrive.</td></tr>
-      </tbody></table>
-      <p>Los datos de la cuenta se usan para autenticación, visualización del perfil y sincronización. No se venden, no se usan para publicidad ni se comparten con otros usuarios. El respaldo se envía directamente desde la aplicación al proveedor elegido; Proyektor no opera un servidor propio que aloje copias de esos archivos. Google o Microsoft procesan los datos según sus propias políticas y la configuración de tu cuenta.</p>
+      <p>
+        Si decides vincular una cuenta, el inicio de sesión se realiza en el navegador del sistema
+        mediante el proveedor que elijas. Proyektor recibe un identificador de cuenta, nombre,
+        correo electrónico y, si está disponible, foto de perfil para mostrar tu cuenta y asociar
+        tus respaldos. También obtiene tokens de autorización para acceder al espacio de respaldo.
+        El token de renovación se guarda en el almacén de credenciales del sistema operativo; el
+        token de acceso se mantiene durante la sesión. No solicitamos tu contraseña.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Proveedor</th>
+            <th>Permisos solicitados</th>
+            <th>Uso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google</td>
+            <td>
+              <code>openid</code>, <code>email</code>, <code>profile</code>,
+              <code>drive.appdata</code>
+            </td>
+            <td>
+              Identificar la cuenta, mostrar nombre/foto y guardar o recuperar respaldos en la
+              carpeta privada de datos de Proyektor dentro de Google Drive. El permiso no da acceso
+              a tus documentos generales de Drive.
+            </td>
+          </tr>
+          <tr>
+            <td>Microsoft</td>
+            <td>
+              <code>openid</code>, <code>profile</code>, <code>email</code>,
+              <code>offline_access</code>, <code>User.Read</code>,
+              <code>Files.ReadWrite.AppFolder</code>
+            </td>
+            <td>
+              Identificar la cuenta y guardar o recuperar respaldos en la carpeta de aplicación de
+              Proyektor en OneDrive.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Los datos de la cuenta se usan para autenticación, visualización del perfil y
+        sincronización. No se venden, no se usan para publicidad ni se comparten con otros usuarios.
+        El respaldo se envía directamente desde la aplicación al proveedor elegido; Proyektor no
+        opera un servidor propio que aloje copias de esos archivos. Google o Microsoft procesan los
+        datos según sus propias políticas y la configuración de tu cuenta.
+      </p>
 
       <h2>4. Qué se respalda y cómo se sincroniza</h2>
-      <p>Cuando la cuenta está vinculada, la aplicación puede respaldar automáticamente, mientras permanece abierta y tiene conexión: configuraciones; Biblias y fondos añadidos fuera del instalador; cancioneros; notas y anuncios; la lista de YouTube del Reproductor; configuración de Adicionales; versículos, fondos y canciones favoritos; y el fondo seleccionado en el Visor. Estos datos pueden incluir texto o imágenes que tú hayas incorporado. Las Biblias y fondos incluidos con el instalador no se vuelven a subir.</p>
-      <p>En otra computadora, Proyektor compara el respaldo con los datos locales. Si encuentra diferencias, te permite elegir por categorías qué importar y advierte cuándo un elemento coincidente se reemplazará. Los datos diferentes se combinan cuando corresponde. La aplicación conserva una copia local de recuperación antes de importar. Si trabajas sin conexión, los cambios permanecen en tu equipo hasta que vuelvas a conectarte con la aplicación abierta.</p>
-      <p>No se sincronizan contraseñas, tokens, claves API, historial de sesión ni detalles de pantallas y monitores. Los respaldos no cuentan con cifrado de extremo a extremo propio de Proyektor; su protección depende también de la seguridad de tu equipo y de Google Drive u OneDrive.</p>
+      <p>
+        Cuando la cuenta está vinculada, la aplicación puede respaldar automáticamente, mientras
+        permanece abierta y tiene conexión: configuraciones; Biblias y fondos añadidos fuera del
+        instalador; cancioneros; notas y anuncios; la lista de YouTube del Reproductor;
+        configuración de Adicionales; versículos, fondos y canciones favoritos; y el fondo
+        seleccionado en el Visor. Estos datos pueden incluir texto o imágenes que tú hayas
+        incorporado. Las Biblias y fondos incluidos con el instalador no se vuelven a subir.
+      </p>
+      <p>
+        En otra computadora, Proyektor compara el respaldo con los datos locales. Si encuentra
+        diferencias, te permite elegir por categorías qué importar y advierte cuándo un elemento
+        coincidente se reemplazará. Los datos diferentes se combinan cuando corresponde. La
+        aplicación conserva una copia local de recuperación antes de importar. Si trabajas sin
+        conexión, los cambios permanecen en tu equipo hasta que vuelvas a conectarte con la
+        aplicación abierta.
+      </p>
+      <p>
+        No se sincronizan contraseñas, tokens, claves API, identificadores de analítica, historial de sesión ni detalles de
+        pantallas y monitores. Los respaldos no cuentan con cifrado de extremo a extremo propio de
+        Proyektor; su protección depende también de la seguridad de tu equipo y de Google Drive u
+        OneDrive.
+      </p>
 
-      <h2>5. Mensajes de soporte</h2>
-      <p>Si usas el formulario de soporte de una compilación que lo tenga configurado, se envían el tipo y contenido del mensaje, los datos de contacto que escribas y datos técnicos de la aplicación y del idioma para responderte. No incluyas información sensible si no es necesaria para el problema.</p>
+      <h2>5. Analítica y mensajes de soporte</h2>
+      <p>
+        Algunas compilaciones pueden incluir analítica de uso con PostHog. Si está configurada, se
+        activa al abrir la aplicación y puedes desactivarla en Configuración. Envía un identificador
+        aleatorio por instalación y eventos técnicos como versión, plataforma, idioma, zona horaria,
+        tamaño de pantalla, aperturas, tiempo de uso por módulos y estado general de actualizaciones.
+        No se incluyen tu nombre, correo, notas, búsquedas, textos bíblicos, canciones ni nombres de
+        archivos. PostHog puede inferir una ubicación aproximada a partir de la conexión de red; la
+        ubicación exacta no se solicita. Si la compilación no incluye PostHog, no se envía esta
+        analítica.
+      </p>
+      <p>
+        Si usas el formulario de soporte de una compilación que lo tenga configurado, se envían el
+        tipo y contenido del mensaje, los datos de contacto que escribas y datos técnicos de la
+        aplicación y del idioma para responderte. No incluyas información sensible si no es
+        necesaria para el problema.
+      </p>
 
       <h2>6. Conservación, eliminación y control</h2>
-      <p>Los datos locales permanecen hasta que los elimines en la aplicación o en tu equipo. Los respaldos permanecen en tu cuenta de Google Drive u OneDrive hasta que elimines los datos de la aplicación en ese servicio o solicites ayuda por el correo de soporte. <strong>Cerrar sesión o revocar el permiso detiene el acceso futuro de Proyektor, pero no borra automáticamente los respaldos ya guardados ni los datos locales.</strong> Desde Google o Microsoft puedes revocar el acceso concedido a Proyektor en la configuración de tu cuenta.</p>
-      <p>Para consultar o solicitar ayuda con tus datos, escribe a <a href="mailto:proyektornext@gmail.com">proyektornext@gmail.com</a>. Los plazos de conservación de los datos alojados por Google, Microsoft y GitHub dependen de sus servicios y de las opciones configuradas para cada cuenta o proyecto.</p>
+      <p>
+        Los datos locales permanecen hasta que los elimines en la aplicación o en tu equipo. Los
+        respaldos permanecen en tu cuenta de Google Drive u OneDrive hasta que elimines los datos de
+        la aplicación en ese servicio o solicites ayuda por el correo de soporte.
+        <strong
+          >Cerrar sesión o revocar el permiso detiene el acceso futuro de Proyektor, pero no borra
+          automáticamente los respaldos ya guardados ni los datos locales.</strong
+        >
+        Desde Google o Microsoft puedes revocar el acceso concedido a Proyektor en la configuración
+        de tu cuenta.
+      </p>
+      <p>
+        Si desactivas la analítica en Configuración, Proyektor deja de enviar nuevos eventos y elimina
+        el identificador local de esa instalación y los eventos pendientes. Esto no borra
+        automáticamente los eventos que PostHog haya recibido. Para consultar o solicitar la
+        eliminación de datos asociados a tu instalación, escribe a
+        <a href="mailto:proyektornext@gmail.com">proyektornext@gmail.com</a> e incluye, si lo conoces,
+        el identificador de instalación; sin él puede que no sea posible reconocer eventos anónimos
+        concretos.
+      </p>
+      <p>
+        Para consultar o solicitar ayuda con tus datos, escribe a
+        <a href="mailto:proyektornext@gmail.com">proyektornext@gmail.com</a>. Los plazos de
+        conservación de los datos alojados por Google, Microsoft, PostHog y GitHub dependen de sus servicios
+        y de las opciones configuradas para cada cuenta o proyecto.
+      </p>
 
       <h2>7. Esta página y servicios externos</h2>
-      <p>Este sitio está alojado en GitHub Pages. No incluye formularios de datos personales, scripts de seguimiento ni cookies propias. El botón de descarga consulta la API pública de GitHub para encontrar el instalador más reciente. GitHub puede procesar información técnica necesaria para entregar la página y la descarga conforme a su <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad</a>. Los enlaces a GitHub Releases, YouTube, Google y Microsoft abren servicios externos con sus propias políticas.</p>
+      <p>
+        Este sitio está alojado en GitHub Pages. No incluye formularios de datos personales, scripts
+        de seguimiento ni cookies propias. El botón de descarga consulta la API pública de GitHub
+        para encontrar el instalador más reciente. GitHub puede procesar información técnica
+        necesaria para entregar la página y la descarga conforme a su
+        <a
+          href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+          >declaración de privacidad</a
+        >. Los enlaces a GitHub Releases, YouTube, Google y Microsoft abren servicios externos con
+        sus propias políticas.
+      </p>
 
       <h2>8. Cambios en esta política</h2>
-      <p>Si cambia la forma en que Proyektor accede, utiliza o comparte datos, actualizaremos esta página y su fecha antes de distribuir la función correspondiente. Puedes volver a esta página desde el sitio o desde el enlace de privacidad en la aplicación.</p>
+      <p>
+        Si cambia la forma en que Proyektor accede, utiliza o comparte datos, actualizaremos esta
+        página y su fecha antes de distribuir la función correspondiente. Puedes volver a esta
+        página desde el sitio o desde el enlace de privacidad en la aplicación.
+      </p>
     </main>
-    <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Proyektor Next · Proyecto gratuito de DarNtn</span><div><a href="./">Inicio</a><a href="terminos.html">Términos</a><a href="preguntas-frecuentes.html">Preguntas frecuentes</a><a href="https://github.com/DarNtn/proyektor-next-releases">Repositorio</a></div></div></footer>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 Proyektor Next · Proyecto gratuito de DarNtn</span>
+        <div>
+          <a href="./">Inicio</a><a href="terminos.html">Términos</a
+          ><a href="preguntas-frecuentes.html">Preguntas frecuentes</a
+          ><a href="https://github.com/DarNtn/proyektor-next-releases">Repositorio</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
