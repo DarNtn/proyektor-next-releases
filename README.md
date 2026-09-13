@@ -18,11 +18,11 @@ notas de versión y archivos de actualizaciones automáticas; el código fuente 
 
 ## Descargar
 
-[Descargar la versión más reciente](https://github.com/DarNtn/proyektor-next-releases/releases/latest)
+[Descargar la versión más reciente desde la página de Proyektor](https://darntn.github.io/proyektor-next-releases/)
 
-En la sección **Assets** del Release, descarga el archivo cuyo nombre termina en
-`x64-setup.exe`. Los archivos `latest.json` y `.sig` son utilizados automáticamente por la
-aplicación para comprobar y verificar actualizaciones.
+El botón de la página consulta el último release y descarga directamente el archivo que termina en
+`x64-setup.exe`, sin abrir la página del release. Los archivos `latest.json` y `.sig` son utilizados
+automáticamente por la aplicación para comprobar y verificar actualizaciones.
 
 ## Características
 

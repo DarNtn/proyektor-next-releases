@@ -36,15 +36,15 @@
             para mostrarse con claridad.
           </p>
           <div class="actions">
-            <a
+            <button
               class="button button-primary"
-              href="https://github.com/DarNtn/proyektor-next-releases/releases/latest"
-              >Descargar para Windows</a
+              id="download-windows"
+              type="button"
+              >Descargar para Windows</button
             ><a class="button button-secondary" href="#funciones">Conocer la aplicación</a>
           </div>
-          <p class="micro">
-            Descarga desde el repositorio público de versiones oficiales en GitHub. El instalador es
-            el archivo que termina en <code>x64-setup.exe</code>.
+          <p class="micro" id="download-status" role="status" aria-live="polite">
+            El botón descarga el instalador más reciente para Windows de 64 bits desde GitHub Releases.
           </p>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -155,7 +155,7 @@
               Los datos de respaldo se usan para sincronizar tu instalación; no se venden ni se usan
               para publicidad. Puedes dejar de vincular la cuenta en cualquier momento. Consulta la
               <a href="privacidad.html">política de privacidad</a> para conocer el almacenamiento,
-              la analítica opcional de la compilación y tus opciones de control.
+              los datos de respaldo y tus opciones de control.
             </p>
           </div>
           <div class="info-panel">
@@ -201,5 +201,6 @@
         </div>
       </div>
     </footer>
+    <script src="download.js" defer></script>
   </body>
 </html>
