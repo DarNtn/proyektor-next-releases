@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Página principal -->
   <url>
-    <loc>https://darntn.github.io/proyektor-next-releases/</loc>
+    <loc>https://versenda.uk/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
 
   <!-- Preguntas frecuentes -->
   <url>
-    <loc>https://darntn.github.io/proyektor-next-releases/preguntas-frecuentes.html</loc>
+    <loc>https://versenda.uk/preguntas-frecuentes.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
   <!-- Política de privacidad -->
   <url>
-    <loc>https://darntn.github.io/proyektor-next-releases/privacidad.html</loc>
+    <loc>https://versenda.uk/privacidad.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -26,7 +26,7 @@
 
   <!-- Términos y condiciones -->
   <url>
-    <loc>https://darntn.github.io/proyektor-next-releases/terminos.html</loc>
+    <loc>https://versenda.uk/terminos.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

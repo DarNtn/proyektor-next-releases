@@ -1,24 +1,24 @@
-# Proyektor Next
+# Versenda
 
 <p align="center">
-  <img src="assets/proyektor-icon.png" alt="Icono de Proyektor Next" width="160">
+  <img src="assets/versenda-logo.png" alt="Versenda" width="560">
 </p>
 
 **La Biblia en tu pantalla.**
 
-Proyektor Next es una aplicación gratuita de escritorio para preparar y controlar presentaciones
+Versenda es una aplicación gratuita de escritorio para preparar y controlar presentaciones
 bíblicas y multimedia en iglesias, reuniones y eventos. Abre directamente en la pantalla principal:
 puedes usarla sin cuenta como **Invitado**. Este repositorio público contiene los instaladores,
 notas de versión y archivos de actualizaciones automáticas; el código fuente no se distribuye aquí.
 
-[Sitio de la aplicación](https://darntn.github.io/proyektor-next-releases/) ·
-[Política de privacidad](https://darntn.github.io/proyektor-next-releases/privacidad.html) ·
-[Términos de uso](https://darntn.github.io/proyektor-next-releases/terminos.html) ·
-[Preguntas frecuentes](https://darntn.github.io/proyektor-next-releases/preguntas-frecuentes.html)
+[Sitio de la aplicación](https://versenda.uk/) ·
+[Política de privacidad](https://versenda.uk/privacidad.html) ·
+[Términos de uso](https://versenda.uk/terminos.html) ·
+[Preguntas frecuentes](https://versenda.uk/preguntas-frecuentes.html)
 
 ## Descargar
 
-[Ver y descargar la versión más reciente en GitHub](https://github.com/DarNtn/proyektor-next-releases/releases/latest)
+[Ver y descargar la versión más reciente en GitHub](https://github.com/DarNtn/versenda-releases/releases/latest)
 
 En la sección **Assets** del último release, descarga el instalador para Windows de 64 bits cuyo nombre
 termina en `x64-setup.exe`. Los archivos `latest.json` y `.sig` son utilizados automáticamente por la
@@ -40,7 +40,7 @@ aplicación para comprobar y verificar actualizaciones.
 
 ## Cuenta y respaldo opcionales
 
-Al vincular una cuenta, Proyektor utiliza la carpeta privada de datos de la aplicación en Google Drive
+Al vincular una cuenta, Versenda utiliza la carpeta privada de datos de la aplicación en Google Drive
 o la carpeta de aplicación en OneDrive. Sincroniza mientras la aplicación está abierta y hay Internet.
 Cuando hay cambios remotos distintos, permite elegir qué categorías importar y advierte si se
 reemplazarán elementos locales equivalentes. Se respaldan configuraciones, Biblias y fondos
@@ -48,7 +48,7 @@ adicionales, cancioneros, notas, anuncios, lista de YouTube del Reproductor, Adi
 fondo del Visor. La cuenta no es necesaria para usar las funciones locales.
 
 Google solicita datos básicos del perfil y el permiso limitado `drive.appdata`, no acceso a los
-documentos generales de Drive. Consulta la [política de privacidad](https://darntn.github.io/proyektor-next-releases/privacidad.html)
+documentos generales de Drive. Consulta la [política de privacidad](https://versenda.uk/privacidad.html)
 antes de vincular una cuenta.
 
 ## Requisitos
@@ -60,14 +60,14 @@ antes de vincular una cuenta.
 
 ## Actualizaciones
 
-Proyektor Next comprueba en segundo plano si existe una versión superior. Cuando hay una disponible,
+Versenda comprueba en segundo plano si existe una versión superior. Cuando hay una disponible,
 muestra sus notas y permite descargarla e instalarla desde la aplicación. Las actualizaciones están
 firmadas para verificar su integridad y conservan Biblias, cancioneros, fondos y datos existentes.
 
 ## Ayuda y privacidad del código
 
-Para problemas o sugerencias, escribe a [proyektornext@gmail.com](mailto:proyektornext@gmail.com)
-o abre una [incidencia](https://github.com/DarNtn/proyektor-next-releases/issues) sin publicar datos
+Para problemas o sugerencias, escribe a [support@versenda.uk](mailto:support@versenda.uk)
+o abre una [incidencia](https://github.com/DarNtn/versenda-releases/issues) sin publicar datos
 personales ni secretos. Para solicitudes privadas relacionadas con tu cuenta, usa el correo de soporte.
 Los archivos ZIP y TAR generados
 automáticamente por GitHub contienen solamente la información pública de este repositorio.
