@@ -31,17 +31,18 @@ aplicación para comprobar y verificar actualizaciones.
 - Gestión de cancioneros, letras, favoritos y presentación por estrofas.
 - Biblioteca de fondos con imágenes, videos y recursos importados.
 - Reproducción de videos, páginas web y contenido multimedia en el Visor.
+- Reproducción de archivos locales de audio y video con controles integrados.
+- Dinámicas bíblicas participativas con tableros proyectados, puntajes y bancos de preguntas.
 - Notas, anuncios programados, reloj, cronómetro y cuenta regresiva.
 - Ventana de presentación independiente con estilos, transiciones y control del contenido.
 - Descarga de recursos bíblicos adicionales.
 - Comprobación, descarga e instalación de actualizaciones firmadas.
-- Vinculación opcional con Google o Microsoft para respaldar y recuperar datos cuando la instalación
-  incluya la configuración OAuth del proveedor.
+- Vinculación opcional con Google para respaldar, sincronizar y recuperar datos.
 
 ## Cuenta y respaldo opcionales
 
-Al vincular una cuenta, Versenda utiliza la carpeta privada de datos de la aplicación en Google Drive
-o la carpeta de aplicación en OneDrive. Sincroniza mientras la aplicación está abierta y hay Internet.
+Al vincular una cuenta, Versenda utiliza la carpeta privada de datos de la aplicación en Google Drive.
+Sincroniza mientras la aplicación está abierta y hay Internet.
 Cuando hay cambios remotos distintos, permite elegir qué categorías importar y advierte si se
 reemplazarán elementos locales equivalentes. Se respaldan configuraciones, Biblias y fondos
 adicionales, cancioneros, notas, anuncios, lista de YouTube del Reproductor, Adicionales, favoritos y
